@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 57px;
+    width: 320px;
+}
+
+.navbar{
+    max-width: inherit;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    position: relative;
+    width: 300px;
+    margin-left: 10px;
+}
+.col-2 {
+    max-width: 3;
+}
+
+.col-1 h1 {
+    font-size: 54px;
+}
+
+.col-1 h5 {
+    font-size: 25px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.col-1 a {
+    width: 140px;
+    border: 0;
+    padding: 10px 10px;
+    outline: none;
+    background: linear-gradient( to right,#bae7ed, #0275d8);
+    border-radius: 5px;
+}
+
+.home_body{
+    background-image: url('../Images/Lap1.jpg');
+    background-repeat: no-repeat;
+}
+
